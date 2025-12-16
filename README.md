@@ -1,4 +1,4 @@
-# 🧠 MRI Brain Scan Analysis | Alzheimer's Detection  
+(2020-2023) 
 Python + Power BI Project | 44,000 MRI Scans | Images ➝ Data ➝ Insights
 
 ## 📚 Table of Contents
@@ -56,12 +56,30 @@ center_brightness = np.mean(center)
 # Extracted features were compiled into a structured dataset to be visualized in Power BI.
 ```
 
-#### 🖼️ 1. Dataset Exploration  
+#### 🖼️ 1. Peoject Overview 
 The MRI images were distributed across 4 labeled folders:
-- `NonDemented`
-- `VeryMildDemented`
-- `MildDemented`
-- `ModerateDemented`
+- `Clean dataset to easily expose trends`
+- `Analyze 8 crops across multiple countries`
+- `Analyzed common trends`
+- `Identify top 2 most profitable crops to invest in`
+- `Identify Top countries to keep good relationship with`
+
+
+#### 🖼️ 2. Business Question (Farmer/Trader Perspective)
+- `Which crops generate the highest revenue per unit?`
+- `Which countries are the most reliable trade partners?`
+- `What crop has the strongest long-term demand trend?`
+- `What crop has the strongest long-term demand trend?`
+- `If I were an investor, which 2 crops should I choose and why?`
+
+
+#### 🖼️ 3. Process
+- `Data cleaning USING SQL and Excel`
+-`Standardized units`
+-`Created revenue per unit formula`
+-`Built pivot tables`
+-` share & country analysis`
+-`Trend detection (trade pause insights)`
 
 Each image was grayscale, showing cross-sections of the brain from various angles. I manually examined samples to understand lighting, structure, and variation.
 
